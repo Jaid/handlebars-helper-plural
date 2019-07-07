@@ -34,6 +34,5 @@ export default (...args) => {
     return hash.plural || extraArgument || pluralize(singularNoun)
   }
   const string = `${getNumberString()} ${count === 1 ? singularNoun : getPluralNoun()}`
-  debugger
   return string
 }
