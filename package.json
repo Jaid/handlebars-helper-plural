@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
-    "@babel/runtime": "^7.5.1",
+    "@babel/runtime": "^7.5.2",
     "lodash": "^4.17.11",
     "pluralize": "^8.0.0"
   },
@@ -17,8 +17,8 @@
     "handlebars": "^4.1.2",
     "jest": "^24.8.0",
     "rimraf": "^2.6.3",
-    "webpack": "^4.35.2",
-    "webpack-config-jaid": "^5.21.1"
+    "webpack": "^4.35.3",
+    "webpack-config-jaid": "^5.22.0"
   },
   "scripts": {
     "clean": "rimraf dist/",
