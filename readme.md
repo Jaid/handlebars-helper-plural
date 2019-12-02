@@ -3,6 +3,15 @@
 
 Handlebars helper that returns given number with a possibly pluralized noun.
 
+## Installation
+<a href='https://npmjs.com/package/handlebars-helper-plural'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+```bash
+npm install --save handlebars-helper-plural@^
+```
+<a href='https://yarnpkg.com/package/handlebars-helper-plural'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+```bash
+yarn add handlebars-helper-plural@^
+```
 
 
 ## Try it out
