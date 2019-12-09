@@ -4,31 +4,16 @@
 Handlebars helper that returns given number with a possibly pluralized noun.
 
 ## Installation
-<a href='https://npmjs.com/package/handlebars-helper-plural'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+<a href='https://npmjs.com/package/handlebars-helper-plural'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --save handlebars-helper-plural@^
+npm install --save handlebars-helper-plural@^1.0.1
 ```
-<a href='https://yarnpkg.com/package/handlebars-helper-plural'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+<a href='https://yarnpkg.com/package/handlebars-helper-plural'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn add handlebars-helper-plural@^
+yarn add handlebars-helper-plural@^1.0.1
 ```
 
 
-## Try it out
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/handlebars-helper-plural@1.0.1");
-document.querySelector("head").appendChild(scriptElement);
-```
-
-The module is now loaded in a variable.
-
-```javascript
-typeof handlebars-helper-plural.default
-```
 
 ## Documentation
 Handlebars helper that returns given number with a possibly pluralized noun
