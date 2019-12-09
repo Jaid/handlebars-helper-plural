@@ -6,11 +6,11 @@ Handlebars helper that returns given number with a possibly pluralized noun.
 ## Installation
 <a href='https://npmjs.com/package/handlebars-helper-plural'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --save handlebars-helper-plural@^1.0.1
+npm install --save handlebars-helper-plural@^1.0.2
 ```
 <a href='https://yarnpkg.com/package/handlebars-helper-plural'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn add handlebars-helper-plural@^1.0.1
+yarn add handlebars-helper-plural@^1.0.2
 ```
 
 
