@@ -1,34 +1,60 @@
 # handlebars-helper-plural
 
 
-Handlebars helper that returns given number with a possibly pluralized noun.
+<a href="https://raw.githubusercontent.com/Jaid/handlebars-helper-plural/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/handlebars-helper-plural?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/handlebars-helper-plural/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fhandlebars-helper-plural%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/handlebars-helper-plural/commits"><img src="https://img.shields.io/github/commits-since/Jaid/handlebars-helper-plural/v1.0.2?style=flat-square&logo=github" alt="Commits since v1.0.2"/></a> <a href="https://github.com/Jaid/handlebars-helper-plural/commits"><img src="https://img.shields.io/github/last-commit/Jaid/handlebars-helper-plural?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/handlebars-helper-plural/issues"><img src="https://img.shields.io/github/issues/Jaid/handlebars-helper-plural?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/handlebars-helper-plural"><img src="https://img.shields.io/npm/v/handlebars-helper-plural?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/handlebars-helper-plural/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/handlebars-helper-plural?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/handlebars-helper-plural"><img src="https://img.shields.io/npm/dm/handlebars-helper-plural?style=flat-square&logo=npm" alt="Downloads"/></a>
+
+**Handlebars helper that returns given number with a possibly pluralized noun.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
-<a href='https://npmjs.com/package/handlebars-helper-plural'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
+<a href="https://npmjs.com/package/handlebars-helper-plural"><img src="https://img.shields.io/badge/npm-handlebars--helper--plural-C23039?style=flat-square&logo=npm" alt="handlebars-helper-plural on npm"/></a>
 ```bash
 npm install --save handlebars-helper-plural@^1.0.2
 ```
-<a href='https://yarnpkg.com/package/handlebars-helper-plural'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
+<a href="https://yarnpkg.com/package/handlebars-helper-plural"><img src="https://img.shields.io/badge/Yarn-handlebars--helper--plural-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="handlebars-helper-plural on Yarn"/></a>
 ```bash
 yarn add handlebars-helper-plural@^1.0.2
 ```
 
 
 
-## Documentation
-Handlebars helper that returns given number with a possibly pluralized noun
 
-**Kind**: Exported function  
-**Returns**: <code>string</code> - Compiled text  
-**Example**  
-```javascript
-import Handlebars from "handlebars"
-import handlebarsHelperPlural from "handlebars-helper-plural"
-const handlebars = Handlebars.create()
-handlebars.registerHelper("plural", handlebarsHelperPlural)
-const template = handlebars.compile("I have {{plural bananas 'banana' 'bananas'}}!")
-const result = template({bananas: 4})
-result === "I have 4 bananas!"
+
+
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/handlebars-helper-plural.git
+cd handlebars-helper-plural
+npm install
+```
+Testing:
+```bash
+npm run test:dev
+```
+Testing in production environment:
+```bash
+npm run test
 ```
 
 
@@ -36,7 +62,7 @@ result === "I have 4 bananas!"
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
