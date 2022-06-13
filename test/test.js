@@ -1,13 +1,18 @@
+
+import {expect, it} from "@jest/globals"
+
 import path from "node:path"
+import {fileURLToPath} from "node:url"
 
 import Handlebars from "handlebars"
 
-const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.join(__dirname, "..", "src")) |> require
+const dirName = path.dirname(fileURLToPath(import.meta.url))
+const indexPath = process.env.MAIN ? path.resolve(dirName, "..", process.env.MAIN) : path.join(dirName, "..", "src")
 
 /**
-   * @type { import("../src") }
-   */
-const {default: handlebarsHelperPlural} = indexModule
+ * @type { import("../src") }
+ */
+const {default: handlebarsHelperPlural} = await import(indexPath)
 
 const handlebars = Handlebars.create()
 handlebars.registerHelper("plural", handlebarsHelperPlural)
