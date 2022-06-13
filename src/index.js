@@ -17,8 +17,8 @@ import pluralize from "pluralize"
  * result === "I have 4 bananas!"
  */
 export default (...args) => {
-  const {data, hash} = args |> last
-  const [count, singularNoun, extraArgument] = args |> dropRight
+  const {data, hash} = last(args)
+  const [count, singularNoun, extraArgument] = dropRight(args)
   const getNumberString = () => {
     if (count === 1) {
       if (hash.one === true) {
