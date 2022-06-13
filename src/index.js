@@ -18,7 +18,7 @@ import pluralize from "pluralize"
  */
 export default (...args) => {
   const {data, hash} = last(args)
-  const [count, singularNoun, extraArgument] = args.slice(-1)
+  const [count, singularNoun, extraArgument] = args.slice(-3)
   const getNumberString = () => {
     if (count === 1) {
       if (hash.one === true) {
