@@ -1,6 +1,6 @@
 /** @module handlebars-helper-plural */
 
-import {last, dropRight, isString} from "lodash"
+import {dropRight, isString, last} from "lodash"
 import pluralize from "pluralize"
 
 /**
