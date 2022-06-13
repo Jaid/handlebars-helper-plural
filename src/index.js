@@ -24,7 +24,7 @@ export default (...args) => {
       if (hash.one === true) {
         return "one"
       }
-      if (hash.one |> isString) {
+      if (isString(hash.one)) {
         return hash.one
       }
     }
