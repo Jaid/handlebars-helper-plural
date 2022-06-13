@@ -1,6 +1,6 @@
 /** @module handlebars-helper-plural */
 
-import {dropRight, isString, last} from "lodash-es"
+import {isString, last} from "lodash-es"
 import pluralize from "pluralize"
 
 /**
@@ -18,7 +18,7 @@ import pluralize from "pluralize"
  */
 export default (...args) => {
   const {data, hash} = last(args)
-  const [count, singularNoun, extraArgument] = dropRight(args)
+  const [count, singularNoun, extraArgument] = args.slice(0, -1)
   const getNumberString = () => {
     if (count === 1) {
       if (hash.one === true) {
